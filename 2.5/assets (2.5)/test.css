@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Tamba Sans';
+    src: url(assets\ \(2.5\)/TambaSansDemo-Bold.otf) 
+        format(opentype);
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+.givenword {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Tamba Sans';
+
+    padding: 5px;
+
+    position: relative;
+    top: 8cm;
+    right: 6cm;
+}
+

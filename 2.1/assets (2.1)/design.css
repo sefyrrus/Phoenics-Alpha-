@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Tamba Sans';
+    src: url(TambaSansDemo-Bold.otf) 
+        format(opentype);
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mictest {
+    text-align: center;
+    font-family: 'Tamba Sans';
+}
+
+#michead {
+    position: relative;
+    bottom: 15px;
+
+    font-size: 40px;
+}
+
+#micbut {
+    position: relative;
+    bottom: 15px;
+
+    font-family: 'Tamba Sans';
+    background-color: rgb(232, 74, 74);
+
+    border-style: solid;
+    border-radius: 10px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#micsay {
+    position: relative;
+    bottom: 15px;
+
+    font-family: 'Tamba Sans';
+    background-color: rgb(232, 74, 74);
+
+    border-style: solid;
+    border-radius: 10px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#output {
+    position: relative;
+    bottom: 30px;
+}
+
+#confirm {
+    margin: 10px;
+
+    font-family: 'Tamba Sans';
+    background-color: rgb(232, 74, 74);
+
+    border-style: solid;
+    border-radius: 10px;
+
+    position: relative;
+    bottom: 40px;
+
+    display: none;
+}
+
+/* assess.htm stylesheet */
+.firstword {
+    font-family: 'Tamba Sans';
+
+}
+
+

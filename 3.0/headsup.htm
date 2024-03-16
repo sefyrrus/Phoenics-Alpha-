@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+  <title>Intermission...</title>
+
+  <style>
+    @font-face {
+      font-family: "Tamba Sans";
+      src: url(/assets/fonts/TambaSansDemo-Bold.otf);
+    }
+
+    @font-face {
+    font-family: 'Aladin';
+    src: url('/assets/fonts/Aladin-Regular.ttf');
+}
+
+
+    @keyframes down {
+      from {
+        position: relative;
+        top: -70px;
+      }
+      to {
+        position: relative;
+        top: 270px;
+      }
+    }
+
+    h2 {
+      font-family: "aladin";
+
+      font-size: 50px;
+    }
+
+    h3 {
+      font-family: "Tamba Sans";
+    }
+
+    h4 {
+      font-family: "Tamba Sans";
+    }
+
+    body {
+      background-color: rgb(205, 53, 52);
+
+      color: white;
+      text-align: center;
+
+      position: relative;
+      top: 270px;
+
+      animation-name: down;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Heads up!</h2>
+  <h3>
+    We're increasing the difficulty, we hope you've memorized the phonemes earlier. <br />
+    You're about to pronounce the words without any <u>verbal or textual assistance.</u>
+  </h3>
+
+  <h4>You're about to redirect in approximately 7 seconds, be ready.</h4>
+
+  <script>
+    const countdown = 10000;
+
+    function redirect() {
+      window.location.href = "HDlambda.htm";
+    }
+
+    setTimeout(redirect, countdown);
+  </script>
+</body>

@@ -1,0 +1,50 @@
+<!doctype html>
+ <html>
+    <head>
+        <!-- The links calling the CSS file, intergrated font online, and background and icon for the website. -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="O.png">
+        <link rel="stylesheet" href="assets/css/dsmictest.css">
+        <title>Mic Test !</title>
+    </head>
+
+    <body> 
+
+        <!-- The 'container' <div> controls all of the items inside here. -->
+        <div class="container" style="text-align:center;">
+            <div class="title">
+
+            <p> Before your hands-on pilot testing, we wanted to make sure the <br>
+            microphone is fully functioning or not. So, we introduce to you...
+            </p>
+
+                <h1 id="hdgs" style="text-align:center ;">The Mic Test!</h1>
+
+            </div>
+
+            <!-- The 'title' class is used to separate the two <div(s)> above to avoid merging. -->
+            <div class="title">
+
+                <button id="mictest">
+                    Press me to test the microphone.
+                </button>
+
+                <h3 id="outputmictest"></h3>
+
+            </div>
+        <!-- The button to proceed through once you're done testing the audio. -->
+            <button id="proceed" onclick="document.location='lambda.htm'" disabled>Proceed</button>
+
+
+        <!-- The JavaScript file to run the functionality inside. -->
+            <script src="function/mictest.js"></script>
+        </div>
+    </body>
+
+
+ </html>

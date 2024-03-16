@@ -1,0 +1,89 @@
+@font-face {
+    font-family:'PT-Sans';
+    src: url(/assets/fonts/PTSans-Regular.ttf);
+  }
+
+  body{
+    background-image: url(/assets/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'Aladin';
+    src: url(/assets/fonts/Aladin-Regular.ttf);
+}
+
+p{
+    font-size: 23px;
+   font-family: 'pt-sans';
+    margin-top: 13%;
+    color: rgba(205, 53, 53, 1);;
+}
+
+#hdgs {
+    margin-bottom: -1px;
+    margin-top: -10%;
+    color: rgba(33, 31, 31, 1);
+    font-family: 'Aladin';
+    font-style: normal;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 1.2;
+    padding-top: 150px;
+}
+
+#outputmictest {
+    font-family: 'pt-sans';
+}
+
+#mictest {
+    margin-top: -1px;
+    font-size: 40px;
+    padding: 6px 20px 5px 20px;
+    font-family: 'aladin';
+    letter-spacing: 2px;
+    background:rgba(205, 53, 53, 1);
+    color: white;
+    border-radius: .5rem;
+    border-bottom: 2px solid rgba(205, 53, 53, 1);
+    border-right: 2px solid rgba(205, 53, 53, 1);
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    transition-duration: 1s;
+    transition-property: border-top, 
+        border-left, 
+        border-bottom,
+        border-right,
+        box-shadow;
+}
+
+#proceed {
+    font-size: 40px;
+    padding: 6px 20px 5px 20px;
+    font-family: 'aladin';
+    letter-spacing: 2px;
+    background:rgba(33, 31, 31, 1);
+    color: white;
+    border-radius: .5rem;
+    border-bottom: 2px solid rgb(26, 23, 23);
+    border-right: 2px solidrgba(205, 53, 53, 1);
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    transition-duration: 1s;
+    transition-property: border-top, 
+        border-left, 
+        border-bottom,
+        border-right,
+        box-shadow;
+}
+
+#mictest:hover {
+    border: 2px rgb(137, 27, 27);
+    box-shadow:rgb(30, 26, 26) 5px 5px, rgb(70, 68, 68) 10px 10px, rgb(158, 158, 158) 15px 15px;
+}
+
+#proceed:hover {
+    border: 2px rgb(137, 27, 27);
+    box-shadow:rgb(137, 27, 27) 5px 5px, rgb(238, 83, 83) 10px 10px, rgb(244, 162, 162) 15px 15px;
+}

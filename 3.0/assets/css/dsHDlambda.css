@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family:'PT-Sans';
+  src: url(/assets/fonts/PTSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Aladin';
+  src: url(/assets/fonts/Aladin-Regular.ttf);
+}   
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(/assets/images/bg.jpg);
+}
+
+body h2 {
+  font-family: aladin;
+  font-size: 33px;
+  margin-top: 20px;
+}
+
+.ORGDSN {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.daword {
+  height: 190px;
+  width: 950px;
+  border: 5px solid rgba(33, 31, 31, 1);
+  border-radius: 10px;
+  background-color: rgb(205, 53, 52);
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  margin: 25px;
+}
+.daword #pronounce {
+  font-family: "pt sans";
+  font-size: 50px;
+  font-weight: bold;
+  background-color: aliceblue;
+  border: 5px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+.daword #sayit {
+  color: white;
+  font-family: "aladin";
+  font-weight: bold;
+  font-size: 30px;
+  background-color:rgba(33, 31, 31, 1);
+  border-radius: 5px;
+  padding: 6px;
+  margin: 0px 10px;
+}
+
+#sayit:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.outputs {
+  height: 120px;
+  width: 700px;
+  font-family: aladin;
+  font-size: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(33, 31, 31, 1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#next {
+  margin-top: 20px;
+    font-size: 40px;
+    padding: 6px 20px 10px 20px;
+     font-family: 'aladin';
+     letter-spacing: 2px;
+     background:rgba(33, 31, 31, 1);
+     color: white;
+     border-radius: .5rem;
+     border-bottom: 2px solid rgba(205, 53, 53, 1);
+     border-right: 2px solidrgba(205, 53, 53, 1);
+     border-top: 2px solid white;
+     border-left: 2px solid white;
+     transition-duration: 1s;
+     transition-property: border-top, 
+        border-left, 
+        border-bottom,
+        border-right,
+        box-shadow;
+    }
+    
+#next:hover {
+     border: 2px rgb(137, 27, 27);
+     box-shadow:rgb(137, 27, 27) 5px 5px, rgb(238, 83, 83) 10px 10px, rgb(244, 162, 162) 15px 15px;
+    }
+

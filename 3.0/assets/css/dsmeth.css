@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+@font-face {
+    font-family: 'Aladin';
+    src: url('/assets/fonts/Aladin-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'PT-Sans';
+    src: url('/assets/fonts/PTSans-Regular.ttf');
+}
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/assets/images/bg.jpg);
+  }
+  
+  body h2 {
+    font-family: aladin;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: rgb(205, 53, 52);
+    font-size: 35px;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .ORGDSN {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .daword {
+    height: 190px;
+    width: 840px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(205, 53, 52);
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px;
+    padding: 40px;
+  }
+  .daword #pronounce {
+    font-family: "pt sans";
+    font-size: 40px;
+    font-weight: bold;
+    background-color: aliceblue;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 10px;
+  }
+  
+  .daword #sayit {
+    font-family: "pt sans";
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(235, 173, 174);
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 0px 10px;
+  }
+  
+  #sayit:hover {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .outputs {
+    height: 120px;
+    width: 700px;
+    font-family: aladin;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(205, 53, 52);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
