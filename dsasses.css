@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Tamba Sans";
+    src: url(/assets/fonts/TambaSansDemo-Bold.otf);
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+.con {
+    position: absolute;
+    top: 50%;
+     left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bg {
+    background-image: url(/assets/images/bg.jpg);
+    background-size: cover;
+
+    background-position:  center;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+}
+
+#word {
+    font-size: 60px;
+    padding: -90px;
+    position: relative; 
+
+}
+
+/* The .container set is universal for every container in this assessment. */
+.container {
+    
+    text-align: center;
+
+    border-style: solid;
+    border-radius: 20px;
+
+    width: 400px;
+
+    margin: auto;
+
+    font-family: 'Aladin';
+
+    position: relative;
+
+    background-color:rgb(33, 31, 32);
+    color: white;
+
+    animation: appear 3.5s forwards;
+
+}
+
+/* The #word set is universal for every word shown in this assessment. */
+
+/* The .try set is universal for every word shown in this assessment. */
+.try {
+    text-align: center;
+
+    border-radius: 20px;
+    border-color: white;
+
+    width: 400px;
+    height: 170px;
+    opacity: 0;
+
+    margin: auto;
+    
+    font-family: 'Tamba Sans';
+
+    position: relative;
+   
+
+    background-color: rgb(179, 50, 50);
+
+    animation: appear 3s forwards;
+    animation-delay: 3s;
+
+}
+
+/* The #say and #next set is universal for every button in this assessment. */
+#say {
+    transition-duration: 1s;
+
+    font-family: 'Tamba Sans';
+    font-size: 18px;
+    
+    position: relative;
+    top: 20px;
+
+    padding: 10px 50px;
+
+    border-radius: 10px;
+    border-style: none;
+
+    background-color:white;
+}
+
+#next {
+    
+    transition-duration: 1s;
+
+    font-family: 'Tamba Sans';
+    font-size: 18px;
+    
+    position: relative;
+    top: 20px;
+
+    padding: 10px 50px;
+
+    border-radius: 10px;
+    border-style: none;
+
+    background-color:rgb(33, 31, 32);
+    color: white;
+}
+
+#answer {
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+.greet {
+    font-family: 'Tamba Sans';
+    font-size:12px;
+
+    text-align: center;
+    border: 5px;
+    border-color: white;
+
+    position: relative;
+
+    animation: appear 3s forwards;
+}
