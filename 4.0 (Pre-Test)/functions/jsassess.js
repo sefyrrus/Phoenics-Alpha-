@@ -1,5 +1,3 @@
-export{output, transcript};
-
 if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
     var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     var recognition = new SpeechRecognition();
@@ -13,9 +11,6 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
         var transcript = event.results[0][0].transcript;
         var output = document.getElementById('answer');
         output.textContent = transcript;
-
-        var score = 0;
-        var result = score + " / 10";
 
         document.getElementById('next').disabled = false;
         
