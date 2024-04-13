@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Tamba Sans";
+    src: url(/4.0\ \(Pre-Test\)/assets/fonts/TambaSansDemo-Bold.otf);
+}
+
+body {
+    margin: 0;
+}
+
+#bg {
+    background-image: url(/4.0\ \(Pre-Test\)/assets/images/bg.jpg);
+    background-size: cover;
+
+    background-position:  center;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    filter: blur(1px);
+
+    z-index: -1;
+}
+
+.headings {
+    text-align: center;
+
+    border-style: solid;
+    border-radius: 20px;
+
+    width: 400px;
+
+    margin: auto;
+
+    font-family: 'Tamba Sans';
+
+    position: relative;
+    top: 20px;
+
+    background-color: rgb(213, 80, 80);
+
+    animation: appear 3.5s forwards;
+
+}
+
+.headings #hi {
+    font-size: 40px;
+}
+
+.swear {
+    text-align: center;
+
+    font-family: 'Tamba Sans';
+
+    position: relative;
+    top: 40px;
+}
+
+.swear #ido {
+    background-color: rgb(213, 80, 80);
+
+    padding: 10px 30px;
+
+    border-radius: 10px;
+    border-style: none;
+
+    font-family: 'Tamba Sans';
+}
+
+.swear #solemnly {
+    font-size: 20px;
+}
+
