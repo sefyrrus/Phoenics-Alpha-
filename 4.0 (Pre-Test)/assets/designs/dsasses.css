@@ -82,8 +82,9 @@ body {
 
     background-color: rgb(242, 92, 92);
 
-    animation: appear 7s forwards;
-    animation-delay: 5s;
+    animation: appear 1s forwards; /*7*/
+    animation-delay: 2s; /*5*/
+    
     
 }
 
@@ -118,3 +119,4 @@ body {
 
     animation: appear 3s forwards;
 }
+
