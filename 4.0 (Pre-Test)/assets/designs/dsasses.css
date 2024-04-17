@@ -120,3 +120,24 @@ body {
     animation: appear 3s forwards;
 }
 
+@media (max-width: 660px){
+   .greet{ 
+    position: relative;
+    top: -160px;
+    }
+    #bg{
+        width: 100%;
+        height: 790px;
+    }
+
+    .container{
+
+        width: 370px;
+
+    }
+    .try{
+        
+        width: 370px;
+        height: 170px;
+    }    
+}
